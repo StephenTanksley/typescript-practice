@@ -16,3 +16,9 @@ export const Head = ({ title, isActive = true } : Props ) => {
         </div>
     )
 }
+
+
+
+//make a branch off of staging
+//staging will get an update, but I can rebase.
+//don't update App.tsx - 

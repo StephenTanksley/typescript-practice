@@ -1,11 +1,14 @@
 import React from 'react';
 import { Head } from './components/Head'
 import { Button } from './components/Button'
+import { Input } from './components/Input'
+import { ReducerButton } from './components/ReducerButton'
 import logo from './logo.svg';
 import './App.css';
 
 //React.FC types our App as a React functional component
 const  App = () => {
+
   return (
     <div className="App">
       <Head title="Hello" />
@@ -14,9 +17,12 @@ const  App = () => {
           e.preventDefault()
           console.log(e)
         }}
-      />
-      <header className="App-header">
+      >
         <img src={logo} className="App-logo" alt="logo" />
+        </Button>
+        <ReducerButton />
+        <Input />
+      <header className="App-header">
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
